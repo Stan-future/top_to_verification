@@ -77,5 +77,8 @@ for inout in ioDict.keys():
 tbFile.write(');\n')
 
 
+tbFile.write('endmodule\n')
+tbFile.close
+
 
 
